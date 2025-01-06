@@ -1,0 +1,122 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px 0;
+}
+.product {
+  background: white;
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+}
+.product>img{
+  width: 100%;
+}
+.filter {
+  margin-bottom: 20px;
+}
+.category-button {
+  margin-right: 10px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007BFF;
+  color: white;
+  cursor: pointer;
+}
+.category-button.active {
+  background-color: #0056b3;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  color: grey;
+  background: #fff;
+  padding: 10px 20px; /* Padding */
+  border: none; /* No border */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+.dropbtn:hover {
+  color: gray;/* Pointer cursor on hover */
+}
+
+.dropdown-content {
+  display: none; /* Hidden by default */
+  position: absolute; /* Position it below the button */
+  background-color: white; /* Background color */
+  min-width: 160px; /* Minimum width */
+  border: 1px solid #ccc; /* Border */
+  z-index: 1; /* Stack on top */
+}
+
+.dropdown:hover .dropdown-content {
+  display: block; /* Show on hover */
+}
+
+.option {
+  padding: 10px; /* Padding for options */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.option:hover {
+  background-color: #f1f1f1; /* Background color on hover */
+}
+
+
+
+.d-flex .btn{
+  background: orange;
+  border: 2px solid orange;
+  border-radius: 8px;
+  color: #fff;
+}
+.d-flex .btn:hover{
+  background: rgb(228, 150, 7);
+  border: 2px solid rgb(228, 150, 7);
+}
+
+#right1 :hover{
+  color: orange;
+  transition: 300ms;
+}
+
+.row .right2 {
+  margin-left: -10px;
+  height: 180px;
+  width: 180px;
+  border-radius: 10px;
+}
+
+.container .row .col .row .col a {
+  background-color: orange;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+
+}
+
+.container .row .col .row .col a :hover {
+  background-color: rgb(201, 132, 5);
+}
+#column :hover{
+  transform: scale(0.9);
+  transition: 450ms;
+  border-radius: 10px;
+}
+
+#items :hover {
+  color: orange;
+  transition: 200ms;
+}
