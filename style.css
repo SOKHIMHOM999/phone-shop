@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  padding: 20px;
+  padding: 0px;
 }
 .products {
   display: grid;
@@ -22,6 +22,13 @@ body {
 .filter {
   margin-bottom: 20px;
 }
+
+@media screen and (max-width: 430px) {
+  .category-button{
+    padding: 10px;
+    margin-top: 10px;
+  }
+}
 .category-button {
   margin-right: 10px;
   padding: 10px 15px;
@@ -34,6 +41,8 @@ body {
 .category-button.active {
   background-color: #0056b3;
 }
+
+
 
 .dropdown {
   position: relative;
