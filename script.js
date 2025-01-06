@@ -65,7 +65,7 @@ function filterProducts() {
         if (brandMatch && categoryMatch && searchMatch) {
             const productDiv = document.createElement('div');
             productDiv.className = 'product';
-            productDiv.innerHTML = `<img src="${product.image}" alt="img"/><h3>${product.name}</h3><p>${product.des}</p>`;
+            productDiv.innerHTML = `<img src="${product.image}" alt="img"/><h5>${product.name}</h5><p>${product.des}</p>`;
             productList.appendChild(productDiv);
         }
     });
